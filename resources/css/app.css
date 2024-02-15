@@ -1,0 +1,47 @@
+@import 'button_styles';
+@import 'table_styles';
+.container {
+    max-width: 800px;
+    margin: 300px auto;
+
+    padding: auto;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.red {
+    background-color: red;
+}
+
+.red.active {
+    opacity: 1;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellow.active {
+    opacity: 1;
+}
+
+.green {
+    background-color: green;
+}
+
+.green.active {
+    opacity: 1;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    opacity: 0.3;
+}
+
+
